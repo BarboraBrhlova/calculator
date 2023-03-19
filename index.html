@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Manrope&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <h1>Basic calculator</h1>
+    <div class="calculator">
+        <div class="calculator-output">0</div>
+        <div class="calculator-keys">
+            <button class="calculator-key calculator-key-operator" data-action="sum">+</button>
+            <button class="calculator-key calculator-key-operator" data-action="subtract">-</button>
+            <button class="calculator-key calculator-key-operator" data-action="multiply">x</button>
+            <button class="calculator-key calculator-key-operator" data-action="division">÷</button>
+            <button class="calculator-key">7</button>
+            <button class="calculator-key">8</button>
+            <button class="calculator-key">9</button>
+            <button class="calculator-key">4</button>
+            <button class="calculator-key">5</button>
+            <button class="calculator-key">6</button>
+            <button class="calculator-key">1</button>
+            <button class="calculator-key">2</button>
+            <button class="calculator-key">3</button>
+            <button class="calculator-key">0</button>
+            <button class="calculator-key" data-action="decimal">.</button>
+            <button class="calculator-key" data-action="clear">AC</button>
+            <button class="calculator-key calculator-key-enter" data-action="calculate">=</button>
+        </div>
+    </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="calculator.js" charset="utf-8"></script>    
+</body>
+
+</html>
